@@ -1,14 +1,2495 @@
 apiVersion: v1
 entries:
-  kbatch-proxy:
-  - apiVersion: v2
-    appVersion: 0.1.7
-    created: "2021-11-05T15:28:53.904027712Z"
-    description: A Helm chart for kbatch-proxy
-    digest: 8b19c3af72a42181ff5f0fedfa45b1a6a16f0da7b6643e1bc875075b8e994a7a
-    name: kbatch-proxy
-    type: application
+  dask:
+  - apiVersion: v1
+    appVersion: 2021.10.0
+    created: "2021-11-04T15:25:10.732170665Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 1fc40cd41ad9fe67968c81faf0e7b2e539e06035d622b688e28ce7d18d19b9a6
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
     urls:
-    - https://kbatch-dev.github.io/helm-chart/kbatch-proxy-0.1.10.tgz
-    version: 0.1.10
-generated: "2021-11-05T15:28:53.903112299Z"
+    - https://helm.dask.org/dask-2021.11.0.tgz
+    version: 2021.11.0
+  - apiVersion: v1
+    appVersion: 2021.10.0
+    created: "2021-10-25T15:55:58.92515163Z"
+    description: Distributed computation in Python with task scheduling
+    digest: ef6828719093137746aa59199edb7748826c0ba3e11fe6e7e37fe3984c6d74d0
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.10.0.tgz
+    version: 2021.10.0
+  - apiVersion: v1
+    appVersion: 2021.9.1
+    created: "2021-09-23T10:25:35.218764266Z"
+    description: Distributed computation in Python with task scheduling
+    digest: a43370a63edd6076cea9e10d86f3f255d2a161ae1079b4eeef9ca9752e0c2f00
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.9.1.tgz
+    version: 2021.9.1
+  - apiVersion: v1
+    appVersion: 2021.8.0
+    created: "2021-08-17T08:45:50.638529684Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 150414253d992fead54b91fce0a3764decd4c00be0dbf0ba4b0a4362dded21c8
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.8.1.tgz
+    version: 2021.8.1
+  - apiVersion: v1
+    appVersion: 2021.7.2
+    created: "2021-08-06T09:47:55.747183653Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 3aa5d48c8701ce60a890c94557eaa612ba98d927a14a1faf9a8b8e3d4d5ba9e7
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.8.0.tgz
+    version: 2021.8.0
+  - apiVersion: v1
+    appVersion: 2021.7.2
+    created: "2021-08-02T11:14:11.589917004Z"
+    description: Distributed computation in Python with task scheduling
+    digest: e26e88140d3d4700e36d5c2c5c6af2c3d18a4e2974d4636874dce994fa31e420
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.7.3.tgz
+    version: 2021.7.3
+  - apiVersion: v1
+    appVersion: 2021.7.1
+    created: "2021-07-26T15:19:40.961087575Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 0bc87755fdca3f5511dee53877ef7963f2253e9d53055bae65c65a262e92407b
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.7.2.tgz
+    version: 2021.7.2
+  - apiVersion: v1
+    appVersion: 2021.7.1
+    created: "2021-07-26T09:15:42.150971186Z"
+    description: Distributed computation in Python with task scheduling
+    digest: af13ab894b6d9073b5a173f071504df3e8e0bd038ad031252933ba002950e8f8
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.7.1.tgz
+    version: 2021.7.1
+  - apiVersion: v1
+    appVersion: 2021.7.0
+    created: "2021-07-12T09:32:34.281724366Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 24b503c8d05925f9511a38806e63ae26eaffa4a832c09d1d6c7301fd8c8d07e2
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.7.0.tgz
+    version: 2021.7.0
+  - apiVersion: v1
+    appVersion: 2021.6.2
+    created: "2021-06-28T11:01:59.908325465Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 2afb733546d7d80826f82a8a87942214112312cf1a3d222fdeb5410f2972761b
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.6.1.tgz
+    version: 2021.6.1
+  - apiVersion: v1
+    appVersion: 2021.6.0
+    created: "2021-06-07T09:08:24.990914528Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 0d445103108ea55aed63b821f10ebbe2cd3812edbfbaf6db2330d572784bf8a7
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.6.0.tgz
+    version: 2021.6.0
+  - apiVersion: v1
+    appVersion: 2021.5.1
+    created: "2021-06-01T11:15:02.672750004Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 415c1dd0ab1ce6e690a14559edd979ea7c9ab513d84c27a58ef9c536f002b93d
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.5.1.tgz
+    version: 2021.5.1
+  - apiVersion: v1
+    appVersion: 2021.5.0
+    created: "2021-05-20T15:41:45.997221727Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 1bb6d7adb827f1ba7b6e66613b32bde8709555b49dac31732f7c4dd397fff613
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.5.0.tgz
+    version: 2021.5.0
+  - apiVersion: v1
+    appVersion: 2021.4.1
+    created: "2021-04-26T11:56:28.18917391Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 2e9580e43c7bf579dc3efb50341648657130763ee033c3153acae0eab5d7ac8c
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.4.1.tgz
+    version: 2021.4.1
+  - apiVersion: v1
+    appVersion: 2021.4.0
+    created: "2021-04-06T09:54:42.143605682Z"
+    description: Distributed computation in Python with task scheduling
+    digest: b5fb7c6ca1335f1240ad0b61f45b37a2937884460512cd1f500df2f80d4b7dc1
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.4.0.tgz
+    version: 2021.4.0
+  - apiVersion: v1
+    appVersion: 2021.3.1
+    created: "2021-04-06T09:54:42.142451466Z"
+    description: Distributed computation in Python with task scheduling
+    digest: fd64874ea1aecfe4702beed67a6d19b5301e670eb25a01686c31c3c109b63fb6
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.3.4.tgz
+    version: 2021.3.4
+  - apiVersion: v1
+    appVersion: 2021.3.1
+    created: "2021-04-06T09:54:42.141310151Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 3824182703cacfec2a9bd93580b63b1217c982a8cf58b665715bdffc257d6e65
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.3.3.tgz
+    version: 2021.3.3
+  - apiVersion: v1
+    appVersion: 2021.3.0
+    created: "2021-04-06T09:54:42.140350738Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 6924c2865df5f4d2f3be9f891b5c9b74823c9316939ca660925ff2837b05efb5
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.3.2.tgz
+    version: 2021.3.2
+  - apiVersion: v1
+    appVersion: 2021.3.0
+    created: "2021-04-06T09:54:42.139345524Z"
+    description: Distributed computation in Python with task scheduling
+    digest: f53484ac6eeb24bb0c59b44456a01da455f60ba1835ac5ef97a8619027c49ead
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.3.1.tgz
+    version: 2021.3.1
+  - apiVersion: v1
+    appVersion: 2021.3.0
+    created: "2021-04-06T09:54:42.138376011Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 5d2fa5215d2191382ba078093c18e0419947ffcc808f309608d46b6a803dc028
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2021.3.0.tgz
+    version: 2021.3.0
+  - apiVersion: v1
+    appVersion: 2021.1.0
+    created: "2021-04-06T09:54:42.183860831Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 97238df07dc77520e2c9be715aebe0f7e1b1bdf41e164db82862abe2e4dd1ca6
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.5.7.tgz
+    version: 4.5.7
+  - apiVersion: v1
+    appVersion: 2.30.0
+    created: "2021-04-06T09:54:42.18009488Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 2dc24fdf041db0b9e021a25687bca75e25624cc9f76607f9840e6fec2de5b998
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.5.6.tgz
+    version: 4.5.6
+  - apiVersion: v1
+    appVersion: 2.30.0
+    created: "2021-04-06T09:54:42.179158067Z"
+    description: Distributed computation in Python with task scheduling
+    digest: f328e735746365e693f54c749d3bacb34c90ed6cf94d0da2e8eca36107956942
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.5.5.tgz
+    version: 4.5.5
+  - apiVersion: v1
+    appVersion: 2.30.0
+    created: "2021-04-06T09:54:42.176165426Z"
+    description: Distributed computation in Python with task scheduling
+    digest: e7c51f9db60105c3e18ed24a7fccab0640849873a3fbce03ccea50d7f2f5725d
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.5.4.tgz
+    version: 4.5.4
+  - apiVersion: v1
+    appVersion: 2.30.0
+    created: "2021-04-06T09:54:42.175077112Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 7f9743f8c0711ff951f8a63163cfaa711d4b73ade0209b165edff6467accb6c3
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.5.3.tgz
+    version: 4.5.3
+  - apiVersion: v1
+    appVersion: 2.30.0
+    created: "2021-04-06T09:54:42.173989897Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 6ac749cf13cee64691c3f9a0ca2f38ba6a1ba73b2ac858bcdb64745982a9c162
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.5.2.tgz
+    version: 4.5.2
+  - apiVersion: v1
+    appVersion: 2.27.0
+    created: "2021-04-06T09:54:42.172961483Z"
+    description: Distributed computation in Python with task scheduling
+    digest: c8c4b2eafeebb91ed6c468011e085adb290ef7b4f62465dd9256effe47e1f7b6
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.5.1.tgz
+    version: 4.5.1
+  - apiVersion: v1
+    appVersion: 2.26.0
+    created: "2021-04-06T09:54:42.171921368Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 399c380e07c99fbd47b61adff9c88ae10f804162276bedb8a0f71809b198abde
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.5.0.tgz
+    version: 4.5.0
+  - apiVersion: v1
+    appVersion: 2.25.0
+    created: "2021-04-06T09:54:42.170887854Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 22a133cbe3b38796f18f1001a6319e48e96c330143a89e0861695b4dde6e871a
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.4.3.tgz
+    version: 4.4.3
+  - apiVersion: v1
+    appVersion: 2.24.0
+    created: "2021-04-06T09:54:42.16984254Z"
+    description: Distributed computation in Python with task scheduling
+    digest: ea5600d357ae9373fda4103ee831e45004f9498f329cf816c378cc21663ee89a
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.4.2.tgz
+    version: 4.4.2
+  - apiVersion: v1
+    appVersion: 2.24.0
+    created: "2021-04-06T09:54:42.168824226Z"
+    description: Distributed computation in Python with task scheduling
+    digest: efc7262f66cad4fd5e3dffe2048f56584c19ad299bf370c78e78a66cf71ce5e3
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.4.1.tgz
+    version: 4.4.1
+  - apiVersion: v1
+    appVersion: 2.24.0
+    created: "2021-04-06T09:54:42.167714711Z"
+    description: Distributed computation in Python with task scheduling
+    digest: be01e295a8626227ab1e69db7be314e0cdeb651a26ead364838108da05854e9f
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.4.0.tgz
+    version: 4.4.0
+  - apiVersion: v1
+    appVersion: 2.24.0
+    created: "2021-04-06T09:54:42.166687497Z"
+    description: Distributed computation in Python with task scheduling
+    digest: bf1d2175839568dd65e0460c26e314506674070d73d7b678705dddcdb80b0c3b
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.3.2.tgz
+    version: 4.3.2
+  - apiVersion: v1
+    appVersion: 2.23.0
+    created: "2021-04-06T09:54:42.165619182Z"
+    description: Distributed computation in Python with task scheduling
+    digest: a6b12bc20670029709e70c064db7699f610747e18f3e7f4338c7084495f1033a
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.3.1.tgz
+    version: 4.3.1
+  - apiVersion: v1
+    appVersion: 2.22.0
+    created: "2021-04-06T09:54:42.16400086Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 0ecd0e5b72673c05ecc448ff9cd7ca134fda260fe1ac8924840ee95d78d7a3f7
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.3.0.tgz
+    version: 4.3.0
+  - apiVersion: v1
+    appVersion: 2.22.0
+    created: "2021-04-06T09:54:42.162161335Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 1c64949349e216b382c315cdef654769b0cffc6d6d3a00bcdd3ac8e6610e8b75
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.2.0.tgz
+    version: 4.2.0
+  - apiVersion: v1
+    appVersion: 2.22.0
+    created: "2021-04-06T09:54:42.154061025Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 8bd73b95cecf37cdd34f15daaeb9306720416e6980e0840898a72e997d5daa35
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.1.14.tgz
+    version: 4.1.14
+  - apiVersion: v1
+    appVersion: 2.21.0
+    created: "2021-04-06T09:54:42.153150512Z"
+    description: Distributed computation in Python with task scheduling
+    digest: b2faeb340e814ee7d7f92d39a9390c6043fc7e711a112845586b92317c9a07ca
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.1.13.tgz
+    version: 4.1.13
+  - apiVersion: v1
+    appVersion: 2.20.0
+    created: "2021-04-06T09:54:42.1522465Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 40a651372e053572cd69ec948a0e1f723aa11628d9d3561ab2f1df457e7d1630
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.1.12.tgz
+    version: 4.1.12
+  - apiVersion: v1
+    appVersion: 2.19.0
+    created: "2021-04-06T09:54:42.151273987Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 512f680bd77d4fd745efa4bb2fe55f7e6fa65078adb65c44042ca955f72aa12c
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.1.11.tgz
+    version: 4.1.11
+  - apiVersion: v1
+    appVersion: 2.18.1
+    created: "2021-04-06T09:54:42.149054956Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 6e90ac920ad44cebe19e62efa414f91345f2cd6c7f8f7fb32625878474eefe30
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.1.10.tgz
+    version: 4.1.10
+  - apiVersion: v1
+    appVersion: 2.18.0
+    created: "2021-04-06T09:54:42.161151222Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 1b9857ee583a90c92d0e4440c9e926387fd987dfd9e94cb937d38555e959475b
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.1.9.tgz
+    version: 4.1.9
+  - apiVersion: v1
+    appVersion: 2.17.2
+    created: "2021-04-06T09:54:42.160245509Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 80fd1aff9173565a3609c7aa001cc033b142a827ee1516900f20a12f8a8af227
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.1.8.tgz
+    version: 4.1.8
+  - apiVersion: v1
+    appVersion: 2.17.0
+    created: "2021-04-06T09:54:42.159337397Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 44ede83cf2e7e8e69c33a4ed84680bfb8877b0e18dfc1b35ef72fc77a7e7233e
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.1.7.tgz
+    version: 4.1.7
+  - apiVersion: v1
+    appVersion: 2.11.0
+    created: "2021-04-06T09:54:42.158430484Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 43f6dbde7a5e24810e3de99b8b5413a863ecae389c925e53e693ee781b29ce2f
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.1.6.tgz
+    version: 4.1.6
+  - apiVersion: v1
+    appVersion: 2.10.1
+    created: "2021-04-06T09:54:42.157562973Z"
+    description: Distributed computation in Python with task scheduling
+    digest: bbe280ec463fd7274560dc0d10d2dbef061fce2e5869074f1cb1785f8a99b448
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.1.5.tgz
+    version: 4.1.5
+  - apiVersion: v1
+    appVersion: 2.9.2
+    created: "2021-04-06T09:54:42.156686261Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 893233d4a737b6ee79652a4869ead3f9d0800df537b92bb3df45f634cc809f32
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.1.4.tgz
+    version: 4.1.4
+  - apiVersion: v1
+    appVersion: 2.9.2
+    created: "2021-04-06T09:54:42.155817749Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 1f635d24ed169e02b674eeefe7a5525417800b75ebd60204da30ed17b4413eec
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.1.3.tgz
+    version: 4.1.3
+  - apiVersion: v1
+    appVersion: 2.9.0
+    created: "2021-04-06T09:54:42.154955037Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 6b89e7855e9c92c71b3b56cfb2344b3b734dda0ac4d12c6856e5d42a092596b2
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.1.2.tgz
+    version: 4.1.2
+  - apiVersion: v1
+    appVersion: 2.8.1
+    created: "2021-04-06T09:54:42.147778739Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 0c8c290bc34bfd9487f6be95aac1fc91d5c3fb382ec87fd6020d3ad6c14e7b1b
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.1.1.tgz
+    version: 4.1.1
+  - apiVersion: v1
+    appVersion: 2.8.0
+    created: "2021-04-06T09:54:42.146936328Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 9e9cad568a9164db6a55037b16954bd70af63c5f9415c13c811a6aef560c7457
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.1.0.tgz
+    version: 4.1.0
+  - apiVersion: v1
+    appVersion: 2.6.0
+    created: "2021-04-06T09:54:42.146044815Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 4b519643772ab3547aba3b27668054a793b6004a61cec15fddf168d03e65baf1
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    - email: jacob@tomlinson.email
+      name: jacobtomlinson
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-4.0.0.tgz
+    version: 4.0.0
+  - apiVersion: v1
+    appVersion: 1.1.5
+    created: "2021-04-06T09:54:42.145163303Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 6e79c9e1514017d87771ac5577f52375b7dec7cd69c0fe9721475d8416d30cc6
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-3.1.0.tgz
+    version: 3.1.0
+  - apiVersion: v1
+    appVersion: 1.1.5
+    created: "2021-04-06T09:54:42.144343492Z"
+    description: Distributed computation in Python with task scheduling
+    digest: edb285ce41d6dcc0414d2041284d9777735e119c9f4c2a639e825b5ff6a208ea
+    home: https://dask.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    - email: beberg@gmail.com
+      name: beberg
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2021-04-06T09:54:42.137496099Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 7dd9a52945515cec7c4ea4476ada51f13ac0d1f1690cad01f49f9bc25a5b9938
+    home: https://dask.pydata.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2.2.1.tgz
+    version: 2.2.1
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2021-04-06T09:54:42.13684089Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 6968838c547a3757122b71f70af1e1dbedbc4e919e427b46585d624c3f8e77f5
+    home: https://dask.pydata.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2.2.0.tgz
+    version: 2.2.0
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2021-04-06T09:54:42.135666274Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 02ddb1fec1fec8db13941791dbb39761d213df7ef7c6b84cfa4d13250ad41ac3
+    home: https://dask.pydata.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2.1.0.tgz
+    version: 2.1.0
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2021-04-06T09:54:42.134871263Z"
+    description: Distributed computation in Python with task scheduling
+    digest: b6be2a4cb7d68cf403b316a71f38ab4e648a2e6b2658569e958b06ed0308ad01
+    home: https://dask.pydata.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2021-04-06T09:54:42.133501844Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 989b5534482bf6864de85a00908e1f60dbee71bc5b97c65ae3f2f7d3cd436004
+    home: https://dask.pydata.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v1
+    appVersion: 0.18.1
+    created: "2021-04-06T09:54:42.132933036Z"
+    description: Distributed computation in Python with task scheduling
+    digest: f996019dc7b122ad9a4898608fd22b3c989b70b756d5bfae624b655f42fb9e59
+    home: https://dask.pydata.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v1
+    appVersion: 0.17.4
+    created: "2021-04-06T09:54:42.131770321Z"
+    description: Distributed computation in Python with task scheduling
+    digest: 27792dd49d9648781b619293002772ec7f0778902cd1d87f7687634c3ee9229b
+    home: https://dask.pydata.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v1
+    appVersion: 0.17.1
+    created: "2021-04-06T09:54:42.131191113Z"
+    description: Distributed computation in Python with task scheduling
+    digest: ca8bf0a3f8a4c7f283d28d5f47642841ebe2eaa8a38b69c0d4a662bf21126753
+    home: https://dask.pydata.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v1
+    appVersion: 0.17.1
+    created: "2021-04-06T09:54:42.130582604Z"
+    description: Distributed computation in Python with task scheduling
+    digest: b4b2750deadf53734da310a02f3050b0f789bd22e794f242fb50c9608b2955f9
+    home: https://dask.pydata.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v1
+    appVersion: 0.17.1
+    created: "2021-04-06T09:54:42.129992796Z"
+    description: Distributed computation in Python with task scheduling
+    digest: d6d67cad6f6abc29fa82ad8869c3496e2a644e12ede465151661cd37db32b2c4
+    home: https://dask.pydata.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: 0.17.1
+    created: "2021-04-06T09:54:42.129401888Z"
+    description: Distributed computation in Python with task scheduling
+    digest: ebee155cfd898cf6e7aba971891a469674253f1607a7b17a17288a15fb2b16df
+    home: https://dask.pydata.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v1
+    created: "2021-04-06T09:54:42.12878188Z"
+    description: Distributed computation in Python
+    digest: 17a205ea097fcbbc2b1ba69debac5e9292cb3d2d0bb1db3969858dffa3a031ba
+    home: https://dask.pydata.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-0.17.1.tgz
+    version: 0.17.1
+  - apiVersion: v1
+    created: "2021-04-06T09:54:42.128169971Z"
+    description: Distributed computation in Python
+    digest: 2a6fe6dea37ab4bfc30480d5e432aa41a45952bc862c2f01a35400c95f48cee8
+    home: https://dask.pydata.org
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-0.17.0.tgz
+    version: 0.17.0
+  - apiVersion: v1
+    created: "2021-04-06T09:54:42.127491162Z"
+    description: Distributed computation in Python
+    digest: 9f18db9c890e327e90b2bac3f53f24b6a98a3f3bcc08e72df074a0a0495fa6a6
+    home: https://github.com/dask/dask
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: df.rodriguez143@gmail.com
+      name: danielfrg
+    - email: mrocklin@gmail.com
+      name: mrocklin
+    name: dask
+    sources:
+    - https://github.com/dask/dask
+    urls:
+    - https://helm.dask.org/dask-0.1.0.tgz
+    version: 0.1.0
+  dask-gateway:
+  - apiVersion: v2
+    appVersion: 0.9.0
+    created: "2020-11-04T15:15:33.2856-06:00"
+    description: A multi-tenant server for deploying and managing Dask clusters
+    digest: 3da2a1afaa75995d377ba0256c519812b1a1e8002f6ce5733e0884224dd4ccf0
+    home: https://gateway.dask.org/
+    name: dask-gateway
+    sources:
+    - https://github.com/dask/dask-gateway/
+    urls:
+    - https://dask.org/dask-gateway-helm-repo/dask-gateway-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
+    appVersion: 0.8.0
+    created: "2020-07-24T12:57:37.689202-05:00"
+    description: A multi-tenant server for deploying and managing Dask clusters
+    digest: 306322ac6a222df10233b15b0380a53147888b36a07a3546ad6469e675852345
+    home: https://gateway.dask.org/
+    name: dask-gateway
+    sources:
+    - https://github.com/dask/dask-gateway/
+    urls:
+    - https://dask.org/dask-gateway-helm-repo/dask-gateway-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v1
+    appVersion: 0.7.1
+    created: "2020-04-10T16:25:03.80133-05:00"
+    description: A multi-tenant server for deploying and managing Dask clusters
+    digest: 018e6144105e190be2e1d88491dd1db54a4e7894e8e1c9394ece3591d24980e1
+    home: https://gateway.dask.org/
+    name: dask-gateway
+    sources:
+    - https://github.com/dask/dask-gateway/
+    urls:
+    - https://dask.github.io/dask-gateway-helm-repo/dask-gateway-0.7.1.tgz
+    version: 0.7.1
+  - apiVersion: v1
+    appVersion: 0.7.0
+    created: "2020-04-08T10:45:49.491301-05:00"
+    description: A multi-tenant server for deploying and managing Dask clusters
+    digest: 7f7399e4fb0ade91d09413ff65f93efeea3365cc76b9f2afaf7044484a613a99
+    home: https://gateway.dask.org/
+    name: dask-gateway
+    sources:
+    - https://github.com/dask/dask-gateway/
+    urls:
+    - https://dask.github.io/dask-gateway-helm-repo/dask-gateway-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v1
+    appVersion: 0.6.1
+    created: "2019-12-05T09:31:33.68666-06:00"
+    description: A multi-tenant server for deploying and managing Dask clusters
+    digest: 4fb88a9a28503b4fc6c250af1d85d7cdc704f89b8892a180c9f7c070416eadde
+    home: https://gateway.dask.org/
+    name: dask-gateway
+    sources:
+    - https://github.com/dask/dask-gateway/
+    urls:
+    - https://dask.github.io/dask-gateway-helm-repo/dask-gateway-0.6.1.tgz
+    version: 0.6.1
+  - apiVersion: v1
+    appVersion: 0.6.0
+    created: "2019-12-03T17:29:36.456673-06:00"
+    description: A multi-tenant server for deploying and managing Dask clusters
+    digest: fae1ccc1e4044963b15874208f9f58a9f10680baeff6efc2e36e3982326d5adf
+    home: https://gateway.dask.org/
+    name: dask-gateway
+    sources:
+    - https://github.com/dask/dask-gateway/
+    urls:
+    - https://dask.github.io/dask-gateway-helm-repo/dask-gateway-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v1
+    appVersion: 0.5.0
+    created: "2019-10-07T13:21:57.974732-05:00"
+    description: A multi-tenant server for deploying and managing Dask clusters
+    digest: 40940fdeca4c3e09a45f000c7eb83b79527f8b656564f4938e3d7a882b5568ca
+    home: https://gateway.dask.org/
+    name: dask-gateway
+    sources:
+    - https://github.com/dask/dask-gateway/
+    urls:
+    - https://dask.github.io/dask-gateway-helm-repo/dask-gateway-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v1
+    appVersion: 0.4.1
+    created: "2019-09-20T10:35:41.778952-05:00"
+    description: A multi-tenant server for deploying and managing Dask clusters
+    digest: 5a72cf79258c5db4357b2680132f0388edeaaf437ad1aa745f34c4ba05d50153
+    home: https://gateway.dask.org/
+    name: dask-gateway
+    sources:
+    - https://github.com/dask/dask-gateway/
+    urls:
+    - https://dask.github.io/dask-gateway-helm-repo/dask-gateway-0.4.1.tgz
+    version: 0.4.1
+  daskhub:
+  - apiVersion: v2
+    appVersion: 2021.10.0
+    created: "2021-11-04T15:25:10.737853471Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 1.2.0
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: d7806edb4f6e46dc17bc05ce640e32aeb1a4328540c74fb4b10b31943a0b51f7
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.11.0.tgz
+    version: 2021.11.0
+  - apiVersion: v2
+    appVersion: 2021.10.0
+    created: "2021-10-25T15:55:58.932402342Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 1.1.3
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: e954c04483a2147a89fe081d7558f9b8ad80f49c61a9897f0e4e935b1559f57b
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.10.0.tgz
+    version: 2021.10.0
+  - apiVersion: v2
+    appVersion: 2021.9.1
+    created: "2021-09-23T10:25:35.226552252Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 1.1.3
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: 5a1f0f1892ad133900479ea5bb66e7d161b79dc6ccb7a953c0e6c2d2cc30d910
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.9.1.tgz
+    version: 2021.9.1
+  - apiVersion: v2
+    appVersion: 2021.8.0
+    created: "2021-08-17T08:45:50.645822379Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 1.1.2
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: 72bbc0be294c6f18ddfa84492481f06aa83132119c206ed2bedbea6bdd3b22c6
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.8.1.tgz
+    version: 2021.8.1
+  - apiVersion: v2
+    appVersion: 2021.7.2
+    created: "2021-08-06T09:47:55.756224956Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 1.1.2
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: 0a0d19186ad871be54ac5714ab5149462dded89c3e2cedd0b32febb6be924d46
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.8.0.tgz
+    version: 2021.8.0
+  - apiVersion: v2
+    appVersion: 2021.7.2
+    created: "2021-08-02T11:14:11.597572208Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 1.1.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: 4a20c371cfdd9b76fdd595473944b736e04685e27c509a6deb14bbf0e52f8223
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.7.3.tgz
+    version: 2021.7.3
+  - apiVersion: v2
+    appVersion: 2021.7.1
+    created: "2021-07-26T15:19:40.973211892Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 1.1.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: b94bcab175546e8bfd88ac88f3072a7716600445731f66d8cd4b2a201ad91e2c
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.7.2.tgz
+    version: 2021.7.2
+  - apiVersion: v2
+    appVersion: 2021.7.1
+    created: "2021-07-26T09:15:42.157618309Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 1.0.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: de1d6ebc7357bccef972df3d28727e8b9fa7323ef1a045b46c6758a5770603f3
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.7.1.tgz
+    version: 2021.7.1
+  - apiVersion: v2
+    appVersion: 2021.7.0
+    created: "2021-07-12T09:32:34.289732032Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 1.0.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: e4d42766f5fc660cbb51138deb7bab27e2b370acf32e0f7c8d2294d3c6b2f870
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.7.0.tgz
+    version: 2021.7.0
+  - apiVersion: v2
+    appVersion: 2021.6.2
+    created: "2021-06-28T11:01:59.914462916Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 1.0.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: ba736205543f4163e85fd23ab0bf51197c4bd4e226cc9580ef9e55e031b2864b
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.6.1.tgz
+    version: 2021.6.1
+  - apiVersion: v2
+    appVersion: 2021.6.0
+    created: "2021-06-07T09:08:24.997148689Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.11.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: 0707ebbab27f654bb191fca28db5a84ab8e7ebdf01a31808fdde18a79c39395f
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.6.0.tgz
+    version: 2021.6.0
+  - apiVersion: v2
+    appVersion: 2021.5.1
+    created: "2021-06-01T11:15:02.678547458Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.11.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: c64fb735436e7adf4a881ebd6790ddbf1f45865e33720dec8fb80baf23406cf7
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.5.1.tgz
+    version: 2021.5.1
+  - apiVersion: v2
+    appVersion: 2021.5.0
+    created: "2021-05-20T15:41:46.003472747Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.11.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: 7be0cea71bbf9a8e36cd9b831600b8fb26b6a648723d1a080fdc933d5528f6f7
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.5.0.tgz
+    version: 2021.5.0
+  - apiVersion: v2
+    appVersion: 2021.4.1
+    created: "2021-04-26T11:56:28.196375067Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.11.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: 073ba8b73b970f2fea1ce7f29dad268690639a20f9144c06393734c81797a638
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.4.1.tgz
+    version: 2021.4.1
+  - apiVersion: v2
+    appVersion: 2021.4.0
+    created: "2021-04-06T09:54:42.222419958Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.11.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: 21801ca8c30bb2df6353dd19026e740dd6b2fb55075ec87a9b8aae889aa8693d
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.4.0.tgz
+    version: 2021.4.0
+  - apiVersion: v2
+    appVersion: 2021.3.1
+    created: "2021-04-06T09:54:42.216797981Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.11.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: f46489779cfeeb51786e3242743d6d8b21cea15eaf2b1867e4b938b42c7865e7
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.3.4.tgz
+    version: 2021.3.4
+  - apiVersion: v2
+    appVersion: 2021.3.1
+    created: "2021-04-06T09:54:42.211181704Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.11.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: 892c6174e5de290404a8453427df3da020197392fc3e0bfcc244e79804793fe4
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.3.3.tgz
+    version: 2021.3.3
+  - apiVersion: v2
+    appVersion: 2021.3.0
+    created: "2021-04-06T09:54:42.204948119Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.11.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: aeec40805ab58cfab6b5f117d8ab97e58bb6a426086637e7f2f386a1e2c4a89e
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.3.2.tgz
+    version: 2021.3.2
+  - apiVersion: v2
+    appVersion: 2021.3.0
+    created: "2021-04-06T09:54:42.198364829Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.11.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: 8e936a83439542ad4acfa71277b6884499ef3592e3f5294522b12558b72f0def
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.3.1.tgz
+    version: 2021.3.1
+  - apiVersion: v2
+    appVersion: 2021.3.0
+    created: "2021-04-06T09:54:42.192744753Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.11.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: 965d4806874b956ea1d05c15d4af44c314d5e40e16de8b818f48e8fdc541be66
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-2021.3.0.tgz
+    version: 2021.3.0
+  - apiVersion: v2
+    appVersion: 2021.1.0
+    created: "2021-04-06T09:54:42.288179855Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.11.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: c47d51a31c78404885a23ed04e2e5b7fb8e2994904670bc03d88d1fbc9cd3d56
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-4.5.7.tgz
+    version: 4.5.7
+  - apiVersion: v2
+    appVersion: 2.30.0
+    created: "2021-04-06T09:54:42.282519878Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.10.6
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: fae50818a3df9addaa1f1d5459e94813498c1744ac451c291176b6852e551ecc
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-4.5.6.tgz
+    version: 4.5.6
+  - apiVersion: v2
+    appVersion: 2.30.0
+    created: "2021-04-06T09:54:42.275813486Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.10.2
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: a4ccb9c2b0536914f14ab0cd9bb42864e4bacbeacf1a71bb981009cfadeb200b
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-4.5.5.tgz
+    version: 4.5.5
+  - apiVersion: v2
+    appVersion: 2.30.0
+    created: "2021-04-06T09:54:42.268465086Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.10.2
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.9.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: 33a8914f206398e483db9a1ea9f7f96c34b63165bb9150ddc5339c635f7b5639
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik.i.sundell@gmail.com
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-4.5.4.tgz
+    version: 4.5.4
+  - apiVersion: v2
+    appVersion: 2.30.0
+    created: "2021-04-06T09:54:42.262962911Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.9.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.8.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: 984f9cc625f0d493a9469e9b0f22e23410890d84f04df8a4a544c4edba66ca47
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik.i.sundell@gmail.com
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-4.5.3.tgz
+    version: 4.5.3
+  - apiVersion: v2
+    appVersion: 2.30.0
+    created: "2021-04-06T09:54:42.256081517Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.9.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.8.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: f8d0a4fda9e489982c2b873adbdfb32d6a2249033fd7d4bbfebf74f2676cd6cc
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik.i.sundell@gmail.com
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-4.5.2.tgz
+    version: 4.5.2
+  - apiVersion: v2
+    appVersion: 2.27.0
+    created: "2021-04-06T09:54:42.250908346Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.9.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.8.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: c4791cda8ec2fc7d9839849d4c3bd24db4955157128012aca6f7faae093b70ae
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik.i.sundell@gmail.com
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-4.5.1.tgz
+    version: 4.5.1
+  - apiVersion: v2
+    appVersion: 2.26.0
+    created: "2021-04-06T09:54:42.245577074Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.9.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.8.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: 26fc52779eb224f047ae2279c41e4f516c32a1a1374d6501a81da52634a36c2b
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik.i.sundell@gmail.com
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-4.5.0.tgz
+    version: 4.5.0
+  - apiVersion: v2
+    appVersion: 2.25.0
+    created: "2021-04-06T09:54:42.238958683Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.9.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.8.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: cfa6d8a1f4999ec50b01e060c9d0dc6a7cc57d24070647697290ce1bfa77c43f
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik.i.sundell@gmail.com
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-4.4.3.tgz
+    version: 4.4.3
+  - apiVersion: v2
+    appVersion: 2.24.0
+    created: "2021-04-06T09:54:42.233752012Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.9.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.8.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: 9528585f12d87cbfcd2dd51943922ca2dcd4dc7019b2d5a74f34a87223057058
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik.i.sundell@gmail.com
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-4.4.2.tgz
+    version: 4.4.2
+  - apiVersion: v2
+    created: "2021-04-06T09:54:42.228556341Z"
+    dependencies:
+    - import-values:
+      - child: rbac
+        parent: rbac
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.9.1
+    - name: dask-gateway
+      repository: https://dask.org/dask-gateway-helm-repo/
+      version: 0.8.0
+    description: Multi-user JupyterHub and Dask deployment.
+    digest: a7b98c8e4e4fab6f7a6001831513b37b65d635340a22dfcb2ff0a5d9536c1c3f
+    icon: https://avatars3.githubusercontent.com/u/17131925?v=3&s=200
+    maintainers:
+    - email: jtomlinson@nvidia.com
+      name: Jacob Tomlinson (Nvidia)
+    - email: jhamman@ucar.edu
+      name: Joe Hamman (NCAR)
+    - email: guillaume.eynard-bontemps@cnes.fr
+      name: Guillaume Eynard-Bontemps (CNES)
+    - email: erik.i.sundell@gmail.com
+      name: Erik Sundell
+    - email: tom.w.augspurger@gmail.com
+      name: Tom Augspurger
+    name: daskhub
+    urls:
+    - https://helm.dask.org/daskhub-4.4.1.tgz
+    version: 4.4.1
+generated: "2021-11-04T15:25:10.73085894Z"
