@@ -2492,4 +2492,15 @@ entries:
     urls:
     - https://helm.dask.org/daskhub-4.4.1.tgz
     version: 4.4.1
-generated: "2021-11-04T15:25:10.73085894Z"
+  kbatch-proxy:
+  - apiVersion: v2
+    appVersion: 0.1.7
+    created: "2021-11-05T15:36:15.057408164Z"
+    description: A Helm chart for kbatch-proxy
+    digest: 414ecc0cff055fa965f0c83682209849646e94eb408e9d07c5a3c73abf6ea9f3
+    name: kbatch-proxy
+    type: application
+    urls:
+    - https://kbatch-dev.github.io/helm-chart/kbatch-proxy-0.1.11.tgz
+    version: 0.1.11
+generated: "2021-11-05T15:36:15.056684659Z"
