@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   kbatch-proxy:
   - apiVersion: v2
+    appVersion: 0.3.1
+    created: "2022-01-19T15:12:42.241418713Z"
+    description: A Helm chart for kbatch-proxy
+    digest: 7437755a6fb69406e2b562f010a99f05c99fa662c6ff958e442382e4524286b7
+    name: kbatch-proxy
+    type: application
+    urls:
+    - https://kbatch-dev.github.io/helm-chart/kbatch-proxy-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
     appVersion: 0.2.13
     created: "2022-01-17T20:09:17.48615527Z"
     description: A Helm chart for kbatch-proxy
@@ -51,4 +61,4 @@ entries:
     urls:
     - https://kbatch-dev.github.io/helm-chart/kbatch-proxy-0.1.11.tgz
     version: 0.1.11
-generated: "2022-01-17T20:09:17.485556762Z"
+generated: "2022-01-19T15:12:42.240613403Z"
