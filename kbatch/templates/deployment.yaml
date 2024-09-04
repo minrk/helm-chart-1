@@ -4,6 +4,11 @@ metadata:
   name: {{ include "kbatch-proxy.fullname" . }}
   labels:
     {{- include "kbatch-proxy.labels" . | nindent 4 }}
+    hub.jupyter.org/network-access-hub: "true"
+    {{- with .Values.extraPodLabels }}
+      {{- toYaml . | nindent 4 }}
+    {{- end }}
+
 spec:
   {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
