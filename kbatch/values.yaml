@@ -26,6 +26,7 @@ serviceAccount:
   name: ""
 
 podAnnotations: {}
+extraPodLabels: {}
 
 podSecurityContext: {}
   # fsGroup: 2000
