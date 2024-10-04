@@ -49,7 +49,7 @@ jobs:
           ref = "${{ github.event.ref }}"
           publishing = ""
           if (
-              and event == "push"
+              event == "push"
               and (
                   ref.startswith("refs/tags/")
                   or ref == "refs/heads/main"
