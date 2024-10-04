@@ -5,6 +5,10 @@ repos:
     hooks:
       - id: frigate
   - repo: https://github.com/gruntwork-io/pre-commit
-    rev: v0.1.12 #  pre-commit autoupdate  - to keep the version up to date
+    rev: v0.1.23 #  pre-commit autoupdate  - to keep the version up to date
     hooks:
       - id: helmlint
+  - repo: https://github.com/jupyterhub/chartpress
+    rev: 2.2.0
+    hooks:
+      - id: chartpress

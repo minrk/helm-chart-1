@@ -1,0 +1,14 @@
+charts:
+  - name: kbatch
+    baseVersion: "0.5.0"
+    imagePrefix: ghcr.io/kbatch-dev/k8s-
+    repo:
+      git: kbatch-dev/helm-chart
+      published: https://kbatch-dev.github.io/helm-chart
+    images:
+      kbatch-proxy:
+        valuesPath: image
+        buildArgs:
+          # keep in sync with appVersion in Chart.yaml
+          kbatch_version: "0.4.2"
+      

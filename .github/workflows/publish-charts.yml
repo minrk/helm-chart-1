@@ -9,29 +9,84 @@ name: Publish charts
 on:
   push:
     tags: ["*"]
+    branches:
+      - main
+  pull_request:
   workflow_dispatch:
 
 defaults:
   run:
     shell: bash
+    env:
+      CHARTPRESS_ARGS: >
+        --builder docker-buildx
+        --platform linux/amd64
+        --platform linux/arm64
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+        with:
+          # chartpress requires git history to set chart version and image tags
+          # correctly
+          fetch-depth: 0
 
-      - name: Get the version
-        id: get_version
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Decide to publish or not
+        id: publishing
+        shell: python
         run: |
-          echo "VERSION=${GITHUB_REF/refs\/tags\//}" >> $GITHUB_ENV
+          import os
+          repo = "${{ github.repository }}"
+          event = "${{ github.event_name }}"
+          ref = "${{ github.event.ref }}"
+          publishing = ""
+          if (
+              and event == "push"
+              and (
+                  ref.startswith("refs/tags/")
+                  or ref == "refs/heads/main"
+              )
+          ):
+              publishing = "true"
+              print("Publishing chart")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"publishing={publishing}\n")
+
+      - name: Set up QEMU (for docker buildx)
+        uses: docker/setup-qemu-action@v3
+
+      - name: Set up Docker Buildx (for chartpress multi-arch builds)
+        uses: docker/setup-buildx-action@v3
+
+      - name: Install chart publishing dependencies (chartpress, helm)
+        run: |
+          pip install chartpress
+          pip list
+
+          helm version
+      
+      - name: Enable chartpress publishing
+        if: steps.publishing.outputs.publishing
+        run:
+          echo CHARTPRESS_ARGS="${CHARTPRESS_ARGS} --push" >> $GITHUB_ENV
+      
+
+      - name: build chart with chartpress
+        run: |
+          chartpress $CHARTPRESS_ARGS
 
       - name: Publish Helm charts
+        if: steps.publishing.outputs.publishing
         uses: stefanprodan/helm-gh-pages@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           charts_dir: "."
           charts_url: https://kbatch-dev.github.io/helm-chart
           linting: "off"
-          chart_version: ${{ env.VERSION }}

@@ -8,9 +8,9 @@ app:
   extraFiles: {}
 
 image:
-  repository: ghcr.io/kbatch-dev/kbatch-proxy
+  repository: ghcr.io/kbatch-dev/k8s-kbatch-proxy
   pullPolicy: IfNotPresent
-  tag: ""
+  tag: "set-by-chartpress"
 
 imagePullSecrets: []
 nameOverride: ""
