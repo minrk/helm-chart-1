@@ -17,11 +17,12 @@ on:
 defaults:
   run:
     shell: bash
-    env:
-      CHARTPRESS_ARGS: >
-        --builder docker-buildx
-        --platform linux/amd64
-        --platform linux/arm64
+
+env:
+  CHARTPRESS_ARGS: >
+    --builder docker-buildx
+    --platform linux/amd64
+    --platform linux/arm64
 
 jobs:
   build:
