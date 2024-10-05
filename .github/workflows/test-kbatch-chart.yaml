@@ -48,9 +48,9 @@ jobs:
           python-version: "3.11"
           cache: pip
       
-      - name: Install chartpress
-        run:
-          pip install chartpress
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
           pip freeze
 
       - name: Install helm
