@@ -20,7 +20,7 @@ defaults:
 
 jobs:
   test-install-chart:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
 
     strategy:
       # Keep running even if one variation of the job fail
@@ -34,13 +34,32 @@ jobs:
         # k3s-channel: https://update.k3s.io/v1-release/channels
         include:
           - k3s-channel: v1.19
-          - k3s-channel: v1.16
+          - k3s-channel: v1.23
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+        with:
+          # chartpress requires git history to set chart version and image tags
+          # correctly
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      
+      - name: Install chartpress
+        run:
+          pip install chartpress
+          pip freeze
+
       - name: Install helm
         run: |
           curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
+      
+      - name: Render chartpress
+        run: |
+          chartpress
 
       - name: Lint chart's templates
         run: |
